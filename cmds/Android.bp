@@ -142,7 +142,7 @@ cc_binary {
 		"oppo-motor.cpp",
 	],
 	shared_libs: [
-		"vendor.oneplus.hardware.motorcontrol@1.0",
+		"vendor.oplus.hardware.motorcontrol@1.0",
 		"libutils",
 		"libhidlbase",
 	],
