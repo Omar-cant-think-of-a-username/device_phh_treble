@@ -137,6 +137,18 @@ cc_binary {
 }
 
 cc_binary {
+	name: "oppo-motor",
+	srcs: [
+		"oppo-motor.cpp",
+	],
+	shared_libs: [
+		"vendor.oneplus.hardware.motorcontrol@1.0",
+		"libutils",
+		"libhidlbase",
+	],
+}
+
+cc_binary {
 	name: "persistprops",
 	srcs: [
 		"persistent_properties.proto",
